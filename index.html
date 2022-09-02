@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randomizer</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cohort 78 Randomizer</h1>
+      <div class="controls">
+        <button data-btn-start>Randomize!</button>
+        <button data-btn-reset>Clear</button>
+      </div>
+    </header>
+    <main>
+      <div>
+        <h2>Students</h2>
+        <ul class="list" data-students>
+          <li data-item="0">Caio</li>
+          <li data-item="1">Gabriel</li>
+          <li data-item="2">Hélio</li>
+          <li data-item="3">Hugo</li>
+          <li data-item="4">Jandson</li>
+          <li data-item="5">João</li>
+          <li data-item="6">Renata</li>
+          <li data-item="7">Walison</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Random Order</h2>
+        <ol class="list" data-randomized></ol>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
